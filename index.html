@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style_sass.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon-tg-white.png">
+        
+        <title>Tablegrab &mdash; Your seat at the table</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="img/logo-final.jpg" alt="Tablegrab logo" class="logo">
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search Restaurants">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-search"></use>
+                        </svg>
+                    </button>
+                </form>
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">4</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bubbles4"></use>
+                        </svg>
+                        <span class="user-nav__notification">2</span>
+                    </div>
+                    <div class="user-nav__user">
+                        <img src="img/usr.JPG" alt="User photo" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">Matt</span>
+                    </div>
+
+                </nav>
+            </header>
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-glass"></use>
+                                </svg>
+                                <span>Dine In</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                                </svg>
+                                <span>Carryout</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-open-book"></use>
+                                </svg>
+                                <span>Menu</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-bubble"></use>
+                                </svg>
+                                <span>Ratings</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-gift"></use>
+                                </svg>
+                                <span>Gift Cards</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-cake"></use>
+                                </svg>
+                                <span>Parties</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="legal">
+                        &copy; 2021 Tablegrab. All rights reserved.
+                    </div>
+                </nav>
+
+
+
+
+
+                <main class="restaurant-view">
+
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/restaurant-2.jpg" alt="Photo of food item 1" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/restaurant-1.jpg" alt="Photo of food item 2" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/restaurant-3.jpg" alt="Photo of food item 3" class="gallery__photo">
+                        </figure>
+                    </div>
+
+
+
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Bistro Savor
+                        </h1>
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                        </div>
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-location2"></use>
+                            </svg>
+                            <button class="btn-inline">
+                                Holland, Michigan
+                            </button>
+                        </div>
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">8.5</div>
+                            <div class="overview__rating-count">182 votes</div>
+                        </div>
+                    </div>
+
+
+                    <div class="details">
+
+                        <div class="description">
+                            <p class="paragraph">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reprehenderit dolores tempora sequi iste, inventore unde ducimus! Exercitationem ut nulla accusamus dolores possimus rerum vel ipsa. Distinctio totam nostrum ratione.
+                            </p>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque unde optio consectetur vero.
+                            </p>
+                            <ul class="list">
+                                <li class="list__item">Rustic cuisine</li>
+                                <li class="list__item">Open until 10PM daily</li>
+                                <li class="list__item">Accepts reservations</li>
+                                <li class="list__item">Average bill/person: $25</li>
+                                <li class="list__item">Carryout</li>
+                                <li class="list__item">Online ordering</li>
+                                <li class="list__item">Parking lot</li>
+                                <li class="list__item">Patio seating</li>
+                            </ul>
+                            <div class="recommend">
+                                <p class="recommend_count">
+                                    Sophie and 5 other friends would eat here again!
+                                </p>
+                                <div class="recommend__friends">
+                                    <img class="recommend__photo" src="img/usr-2.JPG" alt="friend 2">
+                                    <img class="recommend__photo" src="img/usr-3.JPG" alt="friend 3">
+                                    <img class="recommend__photo" src="img/usr-4.JPG" alt="friend 4">
+                                    <img class="recommend__photo" src="img/usr-5.JPG" alt="friend 5">
+                                    <img class="recommend__photo" src="img/usr-6.JPG" alt="friend 6">
+                                    <img class="recommend__photo" src="img/usr-1.JPG" alt="friend 1">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user-reviews">
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis delectus repellendus amet eum et enim nisi expedita.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/usr-8.JPG" alt="user 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Kyle Sharpe</p>
+                                        <p class="review__user-date">Feb 14th, 2021</p>
+                                    </div>
+                                    <div class="review__rating">8.7</div>
+                                </figcaption>
+                            </figure>
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Optio quis beatae excepturi illum natus in sit similique possimus minima non mollitia.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/usr-7.JPG" alt="user 2" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Natalie Thurlby</p>
+                                        <p class="review__user-date">Aug 23th, 2021</p>
+                                    </div>
+                                    <div class="review__rating">9.0</div>
+                                </figcaption>
+                            </figure>
+
+                            <button class="btn-inline">See all reviews <span>&rarr;</span> </button>
+
+                        </div>                       
+
+                    </div>
+
+                    <div class="cta">
+                        <h2 class="cta__reserve-now">
+                            Now seating! There are currently 10 tables open!
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Reserve a table now</span>
+                            <span class="btn__invisible">10 tables left</span>
+                        </button>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>

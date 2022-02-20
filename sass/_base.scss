@@ -1,0 +1,60 @@
+
+:root {
+    --color-primary: #457b9d;
+    --color-primary-light: #93c0c2;
+    --color-primary-dark: #3765a6;
+
+    --color-light-gray-1: #faf9f9;
+    --color-light-gray-2: #f4f2f2;
+    --color-light-gray-3: #f0eeee;
+    --color-light-gray-4: #ccc;
+
+    --color-dark-gray-1: #333;
+    --color-dark-gray-2: #777;
+    --color-dark-gray-3: #999;
+
+    --shadow: 0 1.8rem 4rem rgba(0,0,0,.03);
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+
+    --line: .2rem solid var(--color-light-gray-2);
+    --line-small: .1rem solid var(--color-light-gray-2);    
+}
+
+$bp-largest: 75em;    // 1200px
+$bp-large: 62.5em;    // 1000px
+$bp-medium: 56.25em;  // 900px
+$bp-sm-med: 50em;     // 800px
+$bp-small: 40.625em;  // 650px
+$bp-smallest: 31.25em; //500px
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-dark-gray-1);
+    background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+}
