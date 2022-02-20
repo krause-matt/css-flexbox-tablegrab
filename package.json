@@ -13,7 +13,7 @@
   "scripts": {
     "watch:sass": "sass sass/main.scss css/style_sass.css --watch",
     "devserver": "live-server",
-    "devStart": "npm-run-all --parallel devserver watch:sass",    
+    "start": "npm-run-all --parallel devserver watch:sass",    
     "compile:sass": "sass sass/main.scss css/style_sass.comp.css",
     "prefix:css": "postcss css/style_sass.comp.css --use autoprefixer -o css/style.prefix.css",
     "compress:css": "sass css/style.prefix.css css/style.min.css --style=compressed",
