@@ -17,15 +17,8 @@
     "compile:sass": "sass sass/main.scss css/style_sass.comp.css",
     "prefix:css": "postcss css/style_sass.comp.css --use autoprefixer -o css/style.prefix.css",
     "compress:css": "sass css/style.prefix.css css/style.min.css --style=compressed",
-    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+    "build": "npm-run-all compile:sass prefix:css compress:css"
   },
   "author": "Matt",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^7.1.4",
-    "concat": "^1.0.3",
-    "sass": "^1.36.0",
-    "npm-run-all": "^4.1.1",
-    "postcss-cli": "^4.1.1"
-  }
+  "license": "ISC"
 }
